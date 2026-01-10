@@ -223,4 +223,43 @@ nav .menu{
 .list-item{
     display: flex;
     margin-bottom: 16px;
+    column-gap: 5px;
 }
+
+#main{
+    padding: 120px 0 120px 0;
+}
+#main .main-container{
+    background-color: #F7F6F2;
+    width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px 40px;
+}
+#main .main-container h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+#main .main-container p{
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 24px;
+}
+#main .main-container .btn {
+    width: 194px;
+    /* height: 54px; */
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 16px 12px 16px;
+    gap: 15px;
+    margin-bottom: 16px;
+    /* color: #FFFFFF; */
+    display: flex;
+    /* justify-content: center;
+    align-items:flex-start; 
+    text-align: center; 
+    flex-direction: column; */
+}
+
