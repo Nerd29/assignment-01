@@ -262,4 +262,32 @@ nav .menu{
     text-align: center; 
     flex-direction: column; */
 }
-
+footer{
+    padding-top: 120px;
+    background-color: #001931;
+}
+footer .footer-container{
+    display: flex;
+    justify-content: space-between;
+    
+    width: 1360px;
+    margin: 0 auto;
+    padding-bottom:  80px;
+}
+footer .social p{
+    font-size: 20px;
+    margin-bottom: 16px;
+    color: #FFFFFF;
+    /* background-color: #FFFFFF; */
+}
+footer .social .icons a{
+    margin-right: 16px;
+    max-width: 92px;
+}
+.copyright{
+    max-width: 1360px;
+    text-align: center;
+    margin: 0 auto;
+    color: #FAFAFA;
+    padding-bottom: 30px;
+}
