@@ -180,3 +180,47 @@ nav .menu{
     color: #627382;
     padding: 0 24px 70px 24px;
 }
+
+#solution{
+    padding: 120px;
+    /* width: 1360px; */
+}
+#solution .solution-container{
+    width: 1360px;
+    /* height: 600px; */
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin: 0 auto;
+    gap: 63px;
+}
+.solution-container .title{
+    color: #30B868;
+    font-size: 16px;
+    margin-bottom: 16px;
+    
+}
+.solution-container .details .h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #001931;
+}
+.details .paragraph{
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 40px;
+    color: #627382;
+}
+ .points{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    /* margin: 0 auto; */
+   /* margin-bottom: 16px; */
+    
+}
+.list-item{
+    display: flex;
+    margin-bottom: 16px;
+}
